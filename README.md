@@ -1,5 +1,13 @@
 # ChannelScout AI
 
+## ▶ 在线演示 · 无需安装
+
+**[点击打开 ChannelScout AI 在线交互演示](https://channelscout-ai-demo.giddyslug2.chatgpt.site)**
+
+进入后点击“开始三分钟演示”，体验 Proasin 潜在渠道、Hoppe 竞品限制核查、Dimacofi 现有渠道维护，以及西语邮件草稿与跟进记录。也可以点击仓库右侧 About 中的网站链接。
+
+在线版为复用核心业务规则的浏览器演示适配版：无需登录，记录仅保存在访客自己的浏览器，可随时重置；历史资料与模拟审核、联系和回复均不是真实销售活动。**在线版不执行实时官网抓取、真实 DeepSeek 调用或邮件发送。** 请勿输入真实客户或个人敏感信息。下方安装说明适用于本仓库原始 Next.js 本地版本。
+
 **Evidence-led overseas channel development portfolio — Chile case study.** Research public companies, review evidence, assess channel fit, prepare bilingual outreach drafts and track human-led follow-up. Built with Next.js, TypeScript and Tailwind CSS; local-first, Mock by default.
 
 面向中国制造业海外销售的渠道研究与开发学习作品：把“找公司名单”推进为 **核验证据 → 评估渠道资格 → 区分品牌冲突 → 准备西语沟通 → 记录下一步任务**。以智利、PUDU CC1 Pro / MT1 为业务背景。
