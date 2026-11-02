@@ -1,0 +1,18 @@
+node_modules/
+.next/
+*.tsbuildinfo
+.env*
+coverage/
+.DS_Store
+!.env.example
+.local/
+# Private generated business records and release evidence
+backups/
+exports/
+artifacts/
+*.log
+*.tmp
+**/workspace.json
+**/outreach.json
+# Smoke/verification scripts generate local evidence, not public source.
+docs/**/validation/

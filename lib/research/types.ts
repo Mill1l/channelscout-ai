@@ -1,0 +1,14 @@
+import type {TokenUsage,Metering} from './metering';
+import type { Company, Source } from '../types';
+export const CLAIM_KEYS = ['business','products','industries','customers','deployment','afterSales','coverage','brands','competition','city','robotics','cooperation','puduRelationship','fit','questions'] as const;
+export type ClaimKey = typeof CLAIM_KEYS[number];
+export const CLAIM_LABELS:Record<ClaimKey,string>={business:'公司业务',products:'产品及服务',industries:'服务行业',customers:'B2B 客户类型',deployment:'技术部署',afterSales:'售后服务',coverage:'地区覆盖',brands:'经营品牌',competition:'竞争与渠道冲突',city:'城市',robotics:'机器人经验',cooperation:'公开合作条件与限制',puduRelationship:'企业公开宣称的普渡关系',fit:'与 CC1 Pro / MT1 的适配点',questions:'待人工核实的问题'};
+export type ResearchDocument={id:string;url:string;title:string;status:'ok'|'failed';text:string|null;capturedAt:string;method:'live'|'manual'|'archive';error?:string;diagnostics?:{rawCharacters:number;readableCharacters:number;retainedCharacters:number;removedBlocks:number;truncated:boolean;warnings:string[]};hash?:string};
+export type Citation={documentId:string;quote:string};
+export type Claim={id:string;key:ClaimKey;kind:'fact'|'inference'|'unknown';value:string|null;evidence:Citation[];warning?:string};
+export type ClaimReview={decision:'accept'|'edit'|'reject';kind:Claim['kind'];value:string|null;evidence:Citation[];note:string};
+export type ReviewInput={revision:number;reviewer:string;note:string;confirmed:true;role:Company['researchRole'];claims:Record<string,ClaimReview>;scores:Partial<Record<keyof Company['assessments'],{value:number|null;rationale:string;claimIds:string[]}>>};
+export type Draft={id:string;revision:number;name:string;website:string;companyId:string|null;basePublication?:string|null;createdAt:string;mode:'mock'|'deepseek'|'manual';status:'pending'|'approved'|'rejected';documents:ResearchDocument[];claims:Claim[];warnings:string[];reviews:ReviewInput|null;publishedCompanyId?:string;usage?:TokenUsage;metering?:Metering;error?:string};
+export type Publication={draftId:string;company:Company;sources:Source[];publishedAt:string;before:Company|null;changes:{dimension:string;before:number|null;after:number|null;reason:string}[]};
+export type LocalState={version:1;drafts:Draft[];publications:Publication[];sourceChecks:Record<string,{at:string;status:'ok'|'failed';error?:string;needsReview?:boolean}>;audit:{at:string;action:string;draftId?:string;reviewer?:string;attemptId?:string}[]};
+export type Workspace={companies:Company[];sources:Source[];state:LocalState;provider:'mock'|'deepseek';paidEnabled:boolean};

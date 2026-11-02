@@ -1,0 +1,38 @@
+{
+  "name": "channelscout-ai",
+  "version": "0.2.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.9"
+  },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3100",
+    "build": "next build --webpack",
+    "start": "next start --hostname 127.0.0.1 --port 3100",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "node scripts/verify.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "smoke:phase2": "node scripts/phase2-smoke.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.1",
+    "@types/node": "24.19.2",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.4.3",
+    "tailwindcss": "4.3.1",
+    "typescript": "5.9.3",
+    "vitest": "3.2.6"
+  },
+  "packageManager": "pnpm@12.16.1",
+  "license": "MIT"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "pro-home",
+    "url": "https://proasin.cl/",
+    "title": "Proasin · 产品与行业",
+    "summary": "官网展示工业吸尘器、扫地机、洗地机、蒸汽设备；列出矿业、食品、HORECA 等应用，宣称全智利配送。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "pro-service",
+    "url": "https://proasin.cl/servicio-tecnico/",
+    "title": "Proasin · 技术服务",
+    "summary": "页面列出维护、维修、原厂备件、培训和现场服务；地址为 Macul, Santiago。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "pro-brands",
+    "url": "https://proasin.cl/marcas",
+    "title": "Proasin · 品牌页",
+    "summary": "本次读取失败，无法核对品牌清单。",
+    "status": "failed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "浏览工具返回 Cache miss；不用于事实或评分。"
+  },
+  {
+    "id": "sau-home",
+    "url": "https://sauber.cl/",
+    "title": "Sauber · 官网",
+    "summary": "销售清洁设备、备件及 Hako 等品牌产品；宣称自有技术服务与全智利配送。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "sau-robots",
+    "url": "https://sauber.cl/collections/robots-industriales",
+    "title": "Sauber · 机器人目录",
+    "summary": "目录列出 Scrubber 75、Beetle、Scrubber 50 和 Phantas。展示产品不证明部署数量或采购意向。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "sau-phantas",
+    "url": "https://sauber.cl/products/robot-phantas-s",
+    "title": "Sauber · Phantas",
+    "summary": "商业地面清洁机器人，页面宣称自有技术服务及备件；图片链接指向 gausium.com，但不据此确认代理授权。地址为 San Bernardo, Santiago。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "gt-home",
+    "url": "https://generaltrade.cl/",
+    "title": "General Trade · 官网",
+    "summary": "展示工业清洁、回收设备与 DULEVO、Glutton、KAIVAC；宣称全国技术服务网络。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "gt-about",
+    "url": "https://generaltrade.cl/nosotros/",
+    "title": "General Trade · 企业介绍",
+    "summary": "企业自述服务市政、工业与矿业市场。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "gt-service",
+    "url": "https://generaltrade.cl/post-venta/",
+    "title": "General Trade · 售后",
+    "summary": "列出现场维修、原厂备件、预防维护、技术访问及操作培训。总部地址为 Quilicura, Santiago。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "acq-home",
+    "url": "https://acquatecnia.cl/",
+    "title": "Acquatecnia · 首页",
+    "summary": "两次直接读取超时；搜索索引可见产品信息，但不当作本次实时页面核验。",
+    "status": "failed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "Timeout；改用成功读取的同域门店页。"
+  },
+  {
+    "id": "acq-store",
+    "url": "https://acquatecnia.cl/tiendas",
+    "title": "Acquatecnia · 门店与服务",
+    "summary": "官网列出 Pudahuel, Santiago 门店，工业清洁设备、自有技术服务和备件；导航有洗地机、扫地机与高压清洗设备。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "acq-lavor",
+    "url": "https://acquatecnia.cl/5__lavorpro?resultsPerPage=12",
+    "title": "Acquatecnia · LavorPro 产品",
+    "summary": "搜索索引列出 LavorPro 设备；直接页面读取 Cache miss，品牌授权未核实。",
+    "status": "indexed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "仅索引线索，不参与评分和已证实能力。"
+  },
+  {
+    "id": "dim-mt1",
+    "url": "https://www.dimacofi.cl/pudu-mt1/",
+    "title": "Dimacofi · PUDU MT1",
+    "summary": "展示 MT1；企业自称普渡官方经销商，提供全国技术服务、部署与持续维护，并标注 B2B 服务。未取得普渡独立确认。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "vic-about",
+    "url": "https://www.vicrobotics.com/about",
+    "title": "VIC Robotics · About",
+    "summary": "自称普渡授权经销商，列出 CC1 Pro、MT1 和 RaaS；宣称提供建图、培训、维护及当地支持。地址为 Las Condes, Santiago。未获普渡独立确认。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  },
+  {
+    "id": "hop-keenon",
+    "url": "https://www.hoppechile.com/keenon-chile",
+    "title": "Hoppe · Keenon Chile",
+    "summary": "展示 Keenon 清洁机器人及安装、培训、当地技术服务和备件，自称 Keenon 代表。列出仓储、零售、医疗等应用；地址为 Renca。授权未获品牌方确认。",
+    "status": "reviewed",
+    "checkedAt": "2026-11-01",
+    "publisher": "company",
+    "note": "官网公开内容；仅确认页面如此表述，未经第三方实地审计。"
+  }
+]

@@ -1,0 +1,12 @@
+import type {Company,Source} from '../types';
+export const STAGES={Researching:'研究中',Qualified:'符合初步接触条件',Ready:'邮件已准备，待人工发送',Contacted:'已联系',Replied:'已回复',Opportunity:'商机评估中',OnHold:'暂缓开发',Disqualified:'不适合继续开发'} as const;
+export type Stage=keyof typeof STAGES;
+export type Scope='main'|'demo';
+export type Fact={key:string;label:string;value:string;citations:{url:string;quote:string;sourceId:string;retrieval:string}[];reviewer:string;date:string};
+export type Purpose='new-channel'|'conflict-inquiry'|'channel-maintenance';
+export type Strategy={id:string;companyId:string;createdAt:string;fingerprint:string;mode:'local-template';category:string;qualification:string;eligible:boolean;canDraft:boolean;purpose:Purpose;facts:Fact[];complementarity:string;entry:string;risks:string[];questions:string[];firstAction:string};
+export type Mail={id:string;companyId:string;strategyId:string;fingerprint:string;revision:number;language:'en'|'es';length:'short'|'detailed';subject:string;body:string;originalSubject:string;originalBody:string;edited:boolean;review:null|{actor:string;at:string};createdAt:string;updatedAt:string;mode:'local-template';purpose:Purpose};
+export type Activity={id:string;at:string;actor:string;type:'added'|'updated';from:Stage|null;to:Stage;summary:string;communication:null|{date:string;channel:'email'|'phone'|'meeting'|'other';kind:'sent'|'reply'|'meeting';confirmed:true};nextDate:string|null;task:string;simulated:boolean};
+export type Lead={id:string;companyId:string;revision:number;stage:Stage;basisFingerprint:string|null;priority:'high'|'normal'|'low';nextDate:string|null;task:string;activities:Activity[];simulated:boolean};
+export type SalesState={version:1;strategies:Strategy[];mails:Mail[];leads:Lead[]};
+export type SalesView={scope:Scope;companies:Company[];sources:Source[];state:SalesState;contexts:Record<string,{fingerprint:string;eligible:boolean;canDraft:boolean;purpose:Purpose;qualification:string;category:string;score:number|null;coverage:number;completeness:number;facts:Fact[];reason:string}>};

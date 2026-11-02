@@ -1,0 +1,4 @@
+'use client';
+import {useState} from 'react';
+import {useRouter} from 'next/navigation';
+export default function SourceCheck({id}:{id:string}){const [busy,setBusy]=useState(false),[message,setMessage]=useState('');const router=useRouter();return <div className="source-check"><button className="button" disabled={busy} onClick={async()=>{setBusy(true);setMessage('');try{const res=await fetch('/api/source-check',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sourceId:id})});const data=await res.json();if(!res.ok)throw new Error(data.error);setMessage(data.status==='ok'?'链接可读；原事实与日期未自动刷新，需重新研究后人工确认。':data.error??'读取失败，已停止将该来源用于当前评分。');router.refresh();}catch(e){setMessage(e instanceof Error?e.message:'复检失败');}finally{setBusy(false);}}}>{busy?'正在复检…':'复检此公开链接'}</button>{message&&<span role="status">{message}</span>}</div>}

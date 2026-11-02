@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "proasin",
+    "name": "Proasin",
+    "initials": "PR",
+    "country": "智利",
+    "city": {
+      "value": "Santiago · Macul",
+      "evidenceIds": [
+        "pro-service"
+      ],
+      "kind": "fact"
+    },
+    "website": "https://proasin.cl/",
+    "summary": "工业清洁设备与现场服务，优先补查机器人能力。",
+    "fields": {
+      "business": {
+        "value": "工业清洁设备进口与销售",
+        "evidenceIds": [
+          "pro-home"
+        ],
+        "kind": "fact"
+      },
+      "products": {
+        "value": "吸尘器、扫地机、洗地机、蒸汽设备",
+        "evidenceIds": [
+          "pro-home"
+        ],
+        "kind": "fact"
+      },
+      "industries": {
+        "value": "矿业、食品、HORECA、清洁服务",
+        "evidenceIds": [
+          "pro-home"
+        ],
+        "kind": "fact"
+      },
+      "customers": {
+        "value": "相关行业企业客户；客户结构需核实",
+        "evidenceIds": [
+          "pro-home"
+        ],
+        "kind": "inference"
+      },
+      "deployment": {
+        "value": "提供操作培训；机器人建图部署未知",
+        "evidenceIds": [
+          "pro-service"
+        ],
+        "kind": "fact"
+      },
+      "afterSales": {
+        "value": "维护、维修、备件与现场支持（企业自述）",
+        "evidenceIds": [
+          "pro-service"
+        ],
+        "kind": "fact"
+      },
+      "coverage": {
+        "value": "全智利配送；现场服务区域未知",
+        "evidenceIds": [
+          "pro-home"
+        ],
+        "kind": "fact"
+      },
+      "brands": {
+        "value": null,
+        "evidenceIds": [],
+        "kind": "fact"
+      },
+      "competition": {
+        "value": "传统清洁设备可能形成预算替代；机器人品牌未核实",
+        "evidenceIds": [
+          "pro-home"
+        ],
+        "kind": "inference"
+      }
+    },
+    "relationship": {
+      "status": "unknown",
+      "evidenceIds": [],
+      "claim": null,
+      "brandConfirmed": false
+    },
+    "researchRole": "potential",
+    "assessments": {
+      "product": {
+        "value": 3,
+        "evidenceIds": [
+          "pro-home"
+        ],
+        "rationale": "多类专业地面清洁设备，业务相邻；未证明本目标型号销售。",
+        "kind": "inference"
+      },
+      "customers": {
+        "value": 3,
+        "evidenceIds": [
+          "pro-home"
+        ],
+        "rationale": "官网列出多个相关企业应用行业；客户可触达性未知。",
+        "kind": "inference"
+      },
+      "technical": {
+        "value": 3,
+        "evidenceIds": [
+          "pro-service"
+        ],
+        "rationale": "公开维护、维修、培训与现场服务，机器人专门能力未知。",
+        "kind": "inference"
+      },
+      "coverage": {
+        "value": 2,
+        "evidenceIds": [
+          "pro-home"
+        ],
+        "rationale": "有全国配送主张；不外推为全国现场维修。",
+        "kind": "inference"
+      },
+      "robotics": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实机器人实际部署与维护经验。",
+        "kind": "inference"
+      },
+      "cooperation": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实合作意向、排他条款、资源投入及渠道政策。",
+        "kind": "inference"
+      }
+    },
+    "risks": [
+      "机器人部署与售后认证未知。",
+      "未核对现有代理品牌与排他条款。"
+    ],
+    "nextSteps": [
+      "取得机器人部署与培训流程。",
+      "核实品牌组合、服务半径及普渡既有关系。"
+    ],
+    "checkedAt": "2026-11-01",
+    "confidence": "中：官网自述，未独立审计",
+    "humanReview": null
+  },
+  {
+    "id": "sauber",
+    "name": "Comercial Sauber",
+    "initials": "SA",
+    "country": "智利",
+    "city": {
+      "value": "Santiago · San Bernardo",
+      "evidenceIds": [
+        "sau-phantas"
+      ],
+      "kind": "fact"
+    },
+    "website": "https://sauber.cl/",
+    "summary": "清洁机器人与传统设备并行，需先核实品牌冲突。",
+    "fields": {
+      "business": {
+        "value": "清洁设备、备件销售与技术服务",
+        "evidenceIds": [
+          "sau-home"
+        ],
+        "kind": "fact"
+      },
+      "products": {
+        "value": "扫地机、洗地机、Phantas / Scrubber 等机器人",
+        "evidenceIds": [
+          "sau-home",
+          "sau-robots"
+        ],
+        "kind": "fact"
+      },
+      "industries": {
+        "value": "商业地面清洁；具体客户行业分布未知",
+        "evidenceIds": [
+          "sau-phantas"
+        ],
+        "kind": "fact"
+      },
+      "customers": {
+        "value": "商业清洁运营方；实际客户资源待核实",
+        "evidenceIds": [
+          "sau-phantas"
+        ],
+        "kind": "inference"
+      },
+      "deployment": {
+        "value": "有机器人产品目录；建图、交付流程未知",
+        "evidenceIds": [
+          "sau-robots"
+        ],
+        "kind": "fact"
+      },
+      "afterSales": {
+        "value": "企业宣称自有技术服务和备件",
+        "evidenceIds": [
+          "sau-phantas"
+        ],
+        "kind": "fact"
+      },
+      "coverage": {
+        "value": "全智利配送；现场服务范围未知",
+        "evidenceIds": [
+          "sau-home"
+        ],
+        "kind": "fact"
+      },
+      "brands": {
+        "value": "Hako 等官网展示品牌；授权范围未核实",
+        "evidenceIds": [
+          "sau-home"
+        ],
+        "kind": "fact"
+      },
+      "competition": {
+        "value": "已展示 Phantas 等同类机器人，存在产品线冲突；授权与排他性未知",
+        "evidenceIds": [
+          "sau-robots",
+          "sau-phantas"
+        ],
+        "kind": "inference"
+      }
+    },
+    "relationship": {
+      "status": "unknown",
+      "evidenceIds": [],
+      "claim": null,
+      "brandConfirmed": false
+    },
+    "researchRole": "potential",
+    "assessments": {
+      "product": {
+        "value": 4,
+        "evidenceIds": [
+          "sau-phantas"
+        ],
+        "rationale": "明确提供商用地面清洁机器人，产品类别直接匹配。",
+        "kind": "inference"
+      },
+      "technical": {
+        "value": 2,
+        "evidenceIds": [
+          "sau-phantas"
+        ],
+        "rationale": "技术服务与备件有公开主张，部署培训流程不明确。",
+        "kind": "inference"
+      },
+      "coverage": {
+        "value": 2,
+        "evidenceIds": [
+          "sau-home"
+        ],
+        "rationale": "全国配送，非全国现场服务证据。",
+        "kind": "inference"
+      },
+      "robotics": {
+        "value": 2,
+        "evidenceIds": [
+          "sau-robots"
+        ],
+        "rationale": "机器人产品目录可核对；不等于已交付项目经验。",
+        "kind": "inference"
+      },
+      "customers": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实企业客户行业结构。",
+        "kind": "inference"
+      },
+      "cooperation": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实合作意向、排他条款、资源投入及渠道政策。",
+        "kind": "inference"
+      }
+    },
+    "risks": [
+      "Phantas 等机器人产品与普渡清洁线可能冲突。",
+      "机器人品牌授权及排他条款未知，不能自动排除合作。"
+    ],
+    "nextSteps": [
+      "先核查机器人品牌合同、排他范围和产品定位。",
+      "核实实际机器人交付、服务及客户行业结构。"
+    ],
+    "checkedAt": "2026-11-01",
+    "confidence": "中：官网自述，未独立审计",
+    "humanReview": null
+  },
+  {
+    "id": "general-trade",
+    "name": "General Trade",
+    "initials": "GT",
+    "country": "智利",
+    "city": {
+      "value": "Santiago · Quilicura",
+      "evidenceIds": [
+        "gt-service"
+      ],
+      "kind": "fact"
+    },
+    "website": "https://generaltrade.cl/",
+    "summary": "市政、工业与矿业清洁设备渠道，具备售后研究价值。",
+    "fields": {
+      "business": {
+        "value": "工业清洁、市政及回收设备供应",
+        "evidenceIds": [
+          "gt-home"
+        ],
+        "kind": "fact"
+      },
+      "products": {
+        "value": "清洁机械、高压清洗、吸尘与回收设备",
+        "evidenceIds": [
+          "gt-home"
+        ],
+        "kind": "fact"
+      },
+      "industries": {
+        "value": "市政、工业、矿业",
+        "evidenceIds": [
+          "gt-about"
+        ],
+        "kind": "fact"
+      },
+      "customers": {
+        "value": "市政与工业、矿业企业（企业自述市场）",
+        "evidenceIds": [
+          "gt-about"
+        ],
+        "kind": "fact"
+      },
+      "deployment": {
+        "value": "公开操作课程与技术访问；机器人部署未知",
+        "evidenceIds": [
+          "gt-service"
+        ],
+        "kind": "fact"
+      },
+      "afterSales": {
+        "value": "现场维修、备件、预防维护和培训",
+        "evidenceIds": [
+          "gt-service"
+        ],
+        "kind": "fact"
+      },
+      "coverage": {
+        "value": "宣称全国技术服务网络；网点及 SLA 待核实",
+        "evidenceIds": [
+          "gt-home"
+        ],
+        "kind": "fact"
+      },
+      "brands": {
+        "value": "DULEVO、Glutton、KAIVAC 等官网展示品牌；授权待核实",
+        "evidenceIds": [
+          "gt-home"
+        ],
+        "kind": "fact"
+      },
+      "competition": {
+        "value": "传统清洁设备与机器人有预算重叠；不得把“自主吸尘”宣传直接认定为机器人经验",
+        "evidenceIds": [
+          "gt-home"
+        ],
+        "kind": "inference"
+      }
+    },
+    "relationship": {
+      "status": "unknown",
+      "evidenceIds": [],
+      "claim": null,
+      "brandConfirmed": false
+    },
+    "researchRole": "potential",
+    "assessments": {
+      "product": {
+        "value": 3,
+        "evidenceIds": [
+          "gt-home"
+        ],
+        "rationale": "专业清洁机械业务相邻，目标机器人销售未证实。",
+        "kind": "inference"
+      },
+      "customers": {
+        "value": 3,
+        "evidenceIds": [
+          "gt-about"
+        ],
+        "rationale": "市政、工业、矿业市场与部分清洁应用匹配；资源规模未知。",
+        "kind": "inference"
+      },
+      "technical": {
+        "value": 3,
+        "evidenceIds": [
+          "gt-service"
+        ],
+        "rationale": "公开现场维修、备件、维护与操作培训。",
+        "kind": "inference"
+      },
+      "coverage": {
+        "value": 3,
+        "evidenceIds": [
+          "gt-home"
+        ],
+        "rationale": "有全国服务网络主张；具体网点与响应时间未独立审计。",
+        "kind": "inference"
+      },
+      "robotics": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实机器人实际部署与维护经验。",
+        "kind": "inference"
+      },
+      "cooperation": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实合作意向、排他条款、资源投入及渠道政策。",
+        "kind": "inference"
+      }
+    },
+    "risks": [
+      "机器人部署和软件维护经验未知。",
+      "多品牌合同可能存在品类或区域限制。"
+    ],
+    "nextSteps": [
+      "核查机器人项目交付及软件支持能力。",
+      "核验全国售后网点及品牌合同限制。"
+    ],
+    "checkedAt": "2026-11-01",
+    "confidence": "中：官网自述，未独立审计",
+    "humanReview": null
+  },
+  {
+    "id": "acquatecnia",
+    "name": "Acquatecnia",
+    "initials": "AQ",
+    "country": "智利",
+    "city": {
+      "value": "Santiago · Pudahuel",
+      "evidenceIds": [
+        "acq-store"
+      ],
+      "kind": "fact"
+    },
+    "website": "https://acquatecnia.cl/",
+    "summary": "工业清洁设备与自有技术服务，先补全基础证据。",
+    "fields": {
+      "business": {
+        "value": "工业清洁设备销售与技术服务",
+        "evidenceIds": [
+          "acq-store"
+        ],
+        "kind": "fact"
+      },
+      "products": {
+        "value": "高压清洗、吸尘、洗地与扫地设备分类",
+        "evidenceIds": [
+          "acq-store"
+        ],
+        "kind": "fact"
+      },
+      "industries": {
+        "value": null,
+        "evidenceIds": [],
+        "kind": "fact"
+      },
+      "customers": {
+        "value": null,
+        "evidenceIds": [],
+        "kind": "fact"
+      },
+      "deployment": {
+        "value": null,
+        "evidenceIds": [],
+        "kind": "fact"
+      },
+      "afterSales": {
+        "value": "门店页宣称自有技术服务及备件",
+        "evidenceIds": [
+          "acq-store"
+        ],
+        "kind": "fact"
+      },
+      "coverage": {
+        "value": "Pudahuel 门店可核对；销售和现场服务范围未知",
+        "evidenceIds": [
+          "acq-store"
+        ],
+        "kind": "fact"
+      },
+      "brands": {
+        "value": null,
+        "evidenceIds": [],
+        "kind": "fact"
+      },
+      "competition": {
+        "value": "现有清洁设备可能存在品类替代；品牌合同未知",
+        "evidenceIds": [
+          "acq-store"
+        ],
+        "kind": "inference"
+      }
+    },
+    "relationship": {
+      "status": "unknown",
+      "evidenceIds": [],
+      "claim": null,
+      "brandConfirmed": false
+    },
+    "researchRole": "potential",
+    "assessments": {
+      "product": {
+        "value": 3,
+        "evidenceIds": [
+          "acq-store"
+        ],
+        "rationale": "官网导航展示多类专业清洁设备，业务相邻。",
+        "kind": "inference"
+      },
+      "technical": {
+        "value": 2,
+        "evidenceIds": [
+          "acq-store"
+        ],
+        "rationale": "自有技术服务和备件有公开主张，部署培训未知。",
+        "kind": "inference"
+      },
+      "customers": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实企业客户行业结构。",
+        "kind": "inference"
+      },
+      "coverage": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实地区销售或服务覆盖。",
+        "kind": "inference"
+      },
+      "robotics": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实机器人实际部署与维护经验。",
+        "kind": "inference"
+      },
+      "cooperation": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实合作意向、排他条款、资源投入及渠道政策。",
+        "kind": "inference"
+      }
+    },
+    "risks": [
+      "首页直接读取超时，部分品牌仅搜索索引可见。",
+      "客户行业、区域服务和机器人经验缺失。"
+    ],
+    "nextSteps": [
+      "人工重新核对首页与品牌页。",
+      "调查 B2B 客户行业、现场服务范围及机器人项目。"
+    ],
+    "checkedAt": "2026-11-01",
+    "confidence": "中：官网自述，未独立审计",
+    "humanReview": null
+  },
+  {
+    "id": "dimacofi",
+    "name": "Dimacofi",
+    "initials": "DI",
+    "country": "智利",
+    "city": {
+      "value": null,
+      "evidenceIds": [],
+      "kind": "fact"
+    },
+    "website": "https://www.dimacofi.cl/pudu-mt1/",
+    "summary": "普渡现有渠道研究标杆；企业公开宣称经销身份。",
+    "fields": {
+      "business": {
+        "value": "企业技术解决方案及商用清洁机器人",
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "kind": "fact"
+      },
+      "products": {
+        "value": "PUDU MT1；页面同时提及 CC1 Pro 演示",
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "kind": "fact"
+      },
+      "industries": {
+        "value": "工业清洁；具体客户行业结构未知",
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "kind": "fact"
+      },
+      "customers": {
+        "value": "B2B 企业支持与咨询（页面声明）",
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "kind": "fact"
+      },
+      "deployment": {
+        "value": "提供设计、投运及适配指导",
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "kind": "fact"
+      },
+      "afterSales": {
+        "value": "宣称全国技术服务、主动维护和持续监控",
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "kind": "fact"
+      },
+      "coverage": {
+        "value": "全国覆盖（企业自述）",
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "kind": "fact"
+      },
+      "brands": {
+        "value": "PUDU（自称官方经销商；厂家未独立确认）",
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "kind": "fact"
+      },
+      "competition": {
+        "value": "已有普渡产品线，应避免与既有渠道重复拓展",
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "kind": "inference"
+      }
+    },
+    "relationship": {
+      "status": "public_claim",
+      "evidenceIds": [
+        "dim-mt1"
+      ],
+      "claim": "自称普渡在智利的官方经销商",
+      "brandConfirmed": false
+    },
+    "researchRole": "benchmark",
+    "assessments": {
+      "product": {
+        "value": 4,
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "rationale": "官网明确展示 MT1。",
+        "kind": "inference"
+      },
+      "customers": {
+        "value": 2,
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "rationale": "明确 B2B 服务，客户行业结构证据不足。",
+        "kind": "inference"
+      },
+      "technical": {
+        "value": 4,
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "rationale": "部署、技术服务和持续维护均有公开说明。",
+        "kind": "inference"
+      },
+      "coverage": {
+        "value": 3,
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "rationale": "全国服务主张，尚未独立审核网点。",
+        "kind": "inference"
+      },
+      "robotics": {
+        "value": 3,
+        "evidenceIds": [
+          "dim-mt1"
+        ],
+        "rationale": "有具体机器人及部署支持说明，项目结果未知。",
+        "kind": "inference"
+      },
+      "cooperation": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实合作意向、排他条款、资源投入及渠道政策。",
+        "kind": "inference"
+      }
+    },
+    "risks": [
+      "经销授权和区域权益未获品牌方独立确认。",
+      "应作渠道标杆，不作为全新潜客。"
+    ],
+    "nextSteps": [
+      "向品牌方核实当前经销身份及区域权益。",
+      "研究其部署、维护服务模式作为能力标杆。"
+    ],
+    "checkedAt": "2026-11-01",
+    "confidence": "中：官网自述，未独立审计",
+    "humanReview": null
+  },
+  {
+    "id": "vic-robotics",
+    "name": "VIC Robotics",
+    "initials": "VI",
+    "country": "智利",
+    "city": {
+      "value": "Santiago · Las Condes",
+      "evidenceIds": [
+        "vic-about"
+      ],
+      "kind": "fact"
+    },
+    "website": "https://www.vicrobotics.com/about",
+    "summary": "普渡机器人与 RaaS 服务标杆，关注部署服务模式。",
+    "fields": {
+      "business": {
+        "value": "自主机器人部署及 RaaS 服务",
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "kind": "fact"
+      },
+      "products": {
+        "value": "PUDU CC1 Pro、MT1 等机器人及服务",
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "kind": "fact"
+      },
+      "industries": {
+        "value": "零售、酒店、医疗、矿业、仓储等官网列示行业",
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "kind": "fact"
+      },
+      "customers": {
+        "value": "相关行业企业；具体客户名单及规模未核实",
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "kind": "fact"
+      },
+      "deployment": {
+        "value": "宣称建图、路线配置、培训与运营验证",
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "kind": "fact"
+      },
+      "afterSales": {
+        "value": "宣称预防与纠正维护、现场支持及远程监控",
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "kind": "fact"
+      },
+      "coverage": {
+        "value": "智利本地支持；各大区现场覆盖未知",
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "kind": "fact"
+      },
+      "brands": {
+        "value": "PUDU（企业自称授权经销；品牌方未独立确认）",
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "kind": "fact"
+      },
+      "competition": {
+        "value": "已有普渡机器人业务，应研究协同边界",
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "kind": "inference"
+      }
+    },
+    "relationship": {
+      "status": "public_claim",
+      "evidenceIds": [
+        "vic-about"
+      ],
+      "claim": "自称普渡授权经销商",
+      "brandConfirmed": false
+    },
+    "researchRole": "benchmark",
+    "assessments": {
+      "product": {
+        "value": 4,
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "rationale": "明确列出 CC1 Pro 与 MT1。",
+        "kind": "inference"
+      },
+      "customers": {
+        "value": 3,
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "rationale": "列出多类相关行业，实际可触达客户未核验。",
+        "kind": "inference"
+      },
+      "technical": {
+        "value": 4,
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "rationale": "公开建图、培训、维护和监控流程。",
+        "kind": "inference"
+      },
+      "robotics": {
+        "value": 3,
+        "evidenceIds": [
+          "vic-about"
+        ],
+        "rationale": "机器人销售与部署模式明确，交付结果尚未独立验证。",
+        "kind": "inference"
+      },
+      "coverage": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实地区销售或服务覆盖。",
+        "kind": "inference"
+      },
+      "cooperation": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实合作意向、排他条款、资源投入及渠道政策。",
+        "kind": "inference"
+      }
+    },
+    "risks": [
+      "厂家授权和具体区域边界未独立核实。",
+      "页面 RaaS 起价存在不同表述，不能据此估算商业条款。"
+    ],
+    "nextSteps": [
+      "向品牌方核实授权与区域边界。",
+      "核验服务覆盖和实际交付流程。"
+    ],
+    "checkedAt": "2026-11-01",
+    "confidence": "中：官网自述，未独立审计",
+    "humanReview": null
+  },
+  {
+    "id": "hoppe",
+    "name": "Hoppe",
+    "initials": "HO",
+    "country": "智利",
+    "city": {
+      "value": "Santiago · Renca",
+      "evidenceIds": [
+        "hop-keenon"
+      ],
+      "kind": "fact"
+    },
+    "website": "https://www.hoppechile.com/keenon-chile",
+    "summary": "Keenon 清洁机器人渠道，调查具体冲突与合作边界。",
+    "fields": {
+      "business": {
+        "value": "工业清洁方案进口与 B2B 销售",
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "kind": "fact"
+      },
+      "products": {
+        "value": "Keenon Kleenbot 清洁机器人及服务机器人",
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "kind": "fact"
+      },
+      "industries": {
+        "value": "仓储、零售、医疗、办公、酒店、清洁服务",
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "kind": "fact"
+      },
+      "customers": {
+        "value": "上述场景的企业运营方；真实客户资源未知",
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "kind": "inference"
+      },
+      "deployment": {
+        "value": "宣称安装、建图、路线配置与培训",
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "kind": "fact"
+      },
+      "afterSales": {
+        "value": "宣称智利本地技术服务、备件与支持",
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "kind": "fact"
+      },
+      "coverage": {
+        "value": "智利本地支持；大区服务范围未知",
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "kind": "fact"
+      },
+      "brands": {
+        "value": "Keenon（企业自称代表；厂家未独立确认）",
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "kind": "fact"
+      },
+      "competition": {
+        "value": "Kleenbot 与普渡清洁线直接品类重叠；排他合同和双品牌可行性未知",
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "kind": "inference"
+      }
+    },
+    "relationship": {
+      "status": "unknown",
+      "evidenceIds": [],
+      "claim": null,
+      "brandConfirmed": false
+    },
+    "researchRole": "competitor",
+    "assessments": {
+      "product": {
+        "value": 4,
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "rationale": "明确提供商用地面清洁机器人。",
+        "kind": "inference"
+      },
+      "customers": {
+        "value": 3,
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "rationale": "官网列出多个相关 B2B 应用行业。",
+        "kind": "inference"
+      },
+      "technical": {
+        "value": 4,
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "rationale": "安装、建图、培训及本地维修支持有公开说明。",
+        "kind": "inference"
+      },
+      "robotics": {
+        "value": 3,
+        "evidenceIds": [
+          "hop-keenon"
+        ],
+        "rationale": "机器人产品与部署流程公开，实际交付结果未知。",
+        "kind": "inference"
+      },
+      "coverage": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实地区销售或服务覆盖。",
+        "kind": "inference"
+      },
+      "cooperation": {
+        "value": null,
+        "evidenceIds": [],
+        "rationale": "未核实合作意向、排他条款、资源投入及渠道政策。",
+        "kind": "inference"
+      }
+    },
+    "risks": [
+      "Keenon 同类产品形成直接渠道冲突，需人工判断。",
+      "官网竞品比较属企业营销主张，未作为中立性能结论。"
+    ],
+    "nextSteps": [
+      "人工核查 Keenon 排他条款与产品、区域边界。",
+      "评估服务协同可能，不自动认定绝无合作空间。"
+    ],
+    "checkedAt": "2026-11-01",
+    "confidence": "中：官网自述，未独立审计",
+    "humanReview": null
+  }
+]
