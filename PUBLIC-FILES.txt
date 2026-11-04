@@ -11,6 +11,7 @@ app/api/review/route.ts
 app/api/source-check/route.ts
 app/companies/[id]/page.tsx
 app/companies/page.tsx
+app/experience.css
 app/globals.css
 app/layout.tsx
 app/methodology/page.tsx
@@ -21,6 +22,7 @@ app/priorities/page.tsx
 app/research/page.tsx
 app/sources/page.tsx
 components/company-explorer.tsx
+components/demo-launcher.tsx
 components/outreach-workbench.tsx
 components/research-workbench.tsx
 components/shell.tsx
@@ -30,9 +32,11 @@ data/companies.json
 data/sources.json
 docs/GITHUB-PUBLISH.md
 docs/PERSISTENCE.md
+docs/UX-IMPROVEMENTS.md
 eslint.config.mjs
 lib/data.ts
 lib/engine.ts
+lib/experience.ts
 lib/outreach/demos.ts
 lib/outreach/filter.ts
 lib/outreach/format.ts
@@ -69,6 +73,7 @@ scripts/phase3-smoke.mjs
 scripts/smoke.mjs
 scripts/verify.mjs
 tests/engine.test.ts
+tests/experience.test.ts
 tests/fetch-public.test.ts
 tests/outreach.test.ts
 tests/phase1-audit.test.ts
